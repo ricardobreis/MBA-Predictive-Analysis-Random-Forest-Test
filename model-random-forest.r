@@ -103,7 +103,7 @@ plot(x1,y1, type="n",
      xlab = "1 - Especificidade", 
      ylab= "Sensitividade")
 lines(x1, y1,lwd=3,lty=1, col="purple") 
-legend("topright", c('Random Forest'), lty=1, col=c("purple"))
+legend("bottomright", c('Random Forest'), lty=1, col=c("purple"))
 
 ################################################################################################
 ################################################################################################
