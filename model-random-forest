@@ -9,7 +9,7 @@
 
 # LENDO OS DADOS
 path <- "C:/Users/Ricardo/Documents/R-Projetos/TelcoChurn/"
-base <- read.csv(paste(path,"telco_churn.csv",sep=""), 
+base <- read.csv(paste(path,"dataset-telco-churn.csv",sep=""), 
                  sep=",",header = T,stringsAsFactors = T)[,-1] # deletando a primeira coluna
 summary(base)
 library("VIM")
